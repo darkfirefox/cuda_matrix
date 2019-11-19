@@ -32,6 +32,7 @@ Conducted a research of the speed of execution between the GPU(CUDA) and several
 
 Results of reseach. "SIZE" is mean multiplier size.
 Average time in seconds over 10 measurements.
+Elements of matrix have float type.
 
 | SIZE      | CPU (ijk) | CPU (ikj) | CPU (kij) | GPU (BLOCK SIZE = 32) | GPU (BLOCK SIZE = 16) |
 |-----------|-----------|-----------|-----------|-----------------------|-----------------------|
