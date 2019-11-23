@@ -40,11 +40,11 @@ int main()
 
 	fill_by_rand(a, A_SIZE);
 	fill_by_rand(b, B_SIZE);
-/*
+
 	start = clock();
 	cpu_ijk(d, a, b, N, M, K);
 	printf("\nCPU's time for ijk: %f", (clock() - start) / (double) CLOCKS_PER_SEC);
-*/
+
 	memset(d, 0, C_SIZE * sizeof(float));
 	start = clock();
 	cpu_ikj(d, a, b, N, M, K);
